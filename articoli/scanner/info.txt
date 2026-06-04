@@ -1,0 +1,4 @@
+titolo: Scanner professionale A3
+categoria: Tecnologia
+descrizione: Scanner piano professionale formato A3, risoluzione ottica 1200dpi, interfaccia USB e rete LAN. Ottimo stato, usato in ambiente ufficio. Include software originale e cavo di alimentazione.
+stato: disponibile

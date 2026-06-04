@@ -1,0 +1,6 @@
+nome: Liquidazione Aziendale
+sottotitolo: Vendita attrezzature e arredi da ufficio
+citta: Milano
+email: info@email.com
+whatsapp: +39 333 0000000
+note: Disponibili per visite su appuntamento

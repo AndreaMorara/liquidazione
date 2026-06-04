@@ -1,0 +1,5 @@
+titolo: Bancone reception
+categoria: Arredo
+descrizione: Bancone in legno laminato colore noce, struttura solida, ottime condizioni. Dimensioni: 200x80x75cm. Piano superiore con finitura antiscratchy, vano portacavi integrato. Ideale per reception, uffici, studi professionali.
+prezzo: 350€
+stato: disponibile
