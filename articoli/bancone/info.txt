@@ -1,5 +1,10 @@
-titolo: Bancone reception
+titolo: Bancone Reception NewForm
 categoria: Arredo
-descrizione: Bancone in legno laminato colore noce, struttura solida, ottime condizioni. Dimensioni: 200x80x75cm. Piano superiore con finitura antiscratchy, vano portacavi integrato. Ideale per reception, uffici, studi professionali.
-prezzo: 350€
-stato: disponibile
+descrizione:  
+La reception di alta qualità è in buono stato generale ed è composto da moduli curvi con finitura legno scuro, profili metallici e piano superiore in cristallo temperato. Si tratta di un arredo professionale durevole di un noto marchio di alta gamma per arredo ufficio, adatto a diverse esigenze e configurabile a piacere.
+Il bancone, attualmente montato, si trova al piano strada in via delle Fornaci zona San Pietro.
+ - foto dello stato attuale del bancone montato
+- pianta/configurazione con misure 
+- foto di catalogo del modello Newform in configurazioni simili
+prezzo: 500€
+stato: disponibile - ritiro piano strada zona san pietro - via delle fornaci
