@@ -29,7 +29,14 @@ while IFS= read -r -d '' dir; do
 done < <(find "$ARTICOLI_DIR" -mindepth 1 -maxdepth 1 -type d -print0 | sort -z)
 
 # ── Git ───────────────────────────────────────────────────────────────────────
-git -C "$(dirname "$0")" add .
-git -C "$(dirname "$0")" commit -m "aggiornamento $(date '+%Y-%m-%d %H:%M')"
-git -C "$(dirname "$0")" push
+REPO="$(dirname "$0")"
+git -C "$REPO" add .
+
+if git -C "$REPO" diff --cached --quiet; then
+  echo "— Nessuna modifica da committare, procedo con il push."
+else
+  git -C "$REPO" commit -m "aggiornamento $(date '+%Y-%m-%d %H:%M')"
+fi
+
+git -C "$REPO" push
 echo "✓ Sito aggiornato. Visibile in 1-2 minuti."
