@@ -1,0 +1,7 @@
+titolo: Armadi Blindati Conforti
+categoria: Dotazioni Tecniche
+descrizione:  
+si trovano al piano strada in via delle Fornaci zona San Pietro.
+
+prezzo: 400€
+stato: venduto
