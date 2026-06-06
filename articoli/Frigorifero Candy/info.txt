@@ -1,5 +1,5 @@
 titolo: frigorifero Candy no frost
-categoria: dotazioni tecniche
+categoria: Dotazioni Tecniche
 disponibile per ritiro piano strada zona san pietro via delle fornaci
 prezzo: 50€
 stato: venduto

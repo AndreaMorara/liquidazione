@@ -1,0 +1,5 @@
+titolo: Poltroncine in pelle
+categoria: Arredo
+d2 poltroncine in pelle nera
+prezzo: 50€ l'una
+stato: venduto
