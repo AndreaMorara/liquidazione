@@ -1,5 +1,5 @@
 titolo: Poltroncine in pelle
 categoria: Arredo
-d2 poltroncine in pelle nera
+d2 poltroncine in pelle nera - superficie d'ingombro 60x70cm
 prezzo: 50€ l'una
-stato: venduto
+stato: disponibile
