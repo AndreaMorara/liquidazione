@@ -1,4 +1,5 @@
-titolo: Sedie operative ergonomiche (lotto 8 pz)
+titolo: Mobile basso a 4 ante
 categoria: Arredo
-prezzo: 480€
-stato: venduto
+descrizione: mobile a 4 ante basso NEWFORM  - finitura legno Wenge misure 178 x 48 x 70 - il monile è montato e disponibile per il ritiro piano strada zona san pietro - via delle fornaci
+prezzo: 115€
+stato: disponibile
