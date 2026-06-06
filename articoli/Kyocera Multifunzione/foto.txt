@@ -1,4 +1,3 @@
-cover.jpeg
 mult-k1.jpeg
 mult-k10.jpeg
 mult-k11.jpeg
