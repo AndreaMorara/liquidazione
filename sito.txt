@@ -1,6 +1,6 @@
 nome: Liquidazione Aziendale
 sottotitolo: Vendita attrezzature e arredi da ufficio
 citta: Roma
-email: andrea.morara@gmail.com
+email:voda@agenziamorara.it
 whatsapp: +39 3925051691
 note: Disponibili per visite su appuntamento
