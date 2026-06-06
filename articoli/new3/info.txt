@@ -1,4 +1,0 @@
-titolo: Sedie operative ergonomiche (lotto 8 pz)
-categoria: Arredo
-prezzo: 480€
-stato: venduto
