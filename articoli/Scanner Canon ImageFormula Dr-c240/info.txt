@@ -1,4 +1,6 @@
-titolo: Scanner professionale A3
-categoria: Tecnologia
-descrizione: Scanner piano professionale formato A3, risoluzione ottica 1200dpi, interfaccia USB e rete LAN. Ottimo stato, usato in ambiente ufficio. Include software originale e cavo di alimentazione.
+titolo: Scanner professionale Canon image formula
+categoria: dotazioni tecniche
+descrizione: Scanner Canon image formula dc-240
+3 scanner con alimentatore (no scatola)
+Prezzo: 75€ l'uno
 stato: disponibile
