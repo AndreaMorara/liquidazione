@@ -1,0 +1,2 @@
+libreria 1 stanza1.jpg
+libreria 1 stanza2.jpg

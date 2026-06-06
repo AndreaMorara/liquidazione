@@ -1,0 +1,5 @@
+titolo: Libreria NewForm 5 ante (vetro - legno)
+categoria: Arredo
+descrizione: libreria da ufficio porta documenti NEWFORM misure 230x135x40. l'articolo si trova montato al piano strada in zona san pietro via delle fornaci. si accettano offerte
+prezzo: 200€
+stato: disponibile
