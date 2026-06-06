@@ -1,7 +1,5 @@
 titolo: Stampante Kyocera Taskalfa 4501i
 categoria: Dotazioni Tecniche
 descrizione: L’apparecchiatura è perfettamente funzionante salvo un problema minore di stampa che causa delle macchie sul foglio e richiede un intervento tecnico (preventivato a ca 200€) . NB il difetto è visibile dalla foto della pagina di stato allegata.
-foto del dispositivo e la Pagina di Stato aggiornata per la verifica dei contatori e dei livelli dei materiali di consumo in galleria
-La macchina si trova al Piano Stradale ed è disponibile per il ritiro immediato. Resto in attesa di  di un riscontro in merito al vostro interesse per il cespite.
 prezzo: 350€
-stato: disponibile - ritiro piano strada zona san pietro - via delle fornaci
+stato: disponibile

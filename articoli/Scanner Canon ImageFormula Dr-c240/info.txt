@@ -1,5 +1,5 @@
 titolo: Scanner professionale Canon image formula
 categoria: Dotazioni Tecniche
 descrizione: Scanner Canon image formula dc-240 3 scanner con alimentatore (no scatola) - il prezzo indicato è per il singolo dispositivo
-Prezzo: 75€
+prezzo: 95€
 stato: disponibile

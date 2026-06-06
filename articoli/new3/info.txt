@@ -1,5 +1,4 @@
 titolo: Sedie operative ergonomiche (lotto 8 pz)
 categoria: Arredo
-descrizione: Lotto di 8 sedie operative ergonomiche, seduta in tessuto antracite, schienale regolabile in altezza, braccioli fissi. Modello da ufficio, usura normale. Vendute come lotto unico.
 prezzo: 480€
 stato: venduto
