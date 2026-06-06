@@ -1,6 +1,5 @@
 titolo: 3 Stampanti HP LaserJet  Pro M501
 categoria: Dotazioni Tecniche
 descrizione: 3 Stampanti laser professionali  (+ 2 muletti per parti di ricambio)
-dispositivi in buono stato estetico e funzionanti (hanno tutte una cartuccia del tener ancora carica) - il prezzo è per il singolo dispositivo. si accettano offerte
 prezzo: 95€
 stato: disponibile
