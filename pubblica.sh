@@ -15,17 +15,39 @@ json="[$(IFS=,; echo "${nomi[*]}")]"
 echo "$json" > "$ARTICOLI_DIR/index.json"
 echo "✓ index.json aggiornato: $json"
 
-# ── Genera foto.txt per ogni cartella articolo ────────────────────────────────
+# ── Aggiorna foto.txt per ogni cartella articolo ──────────────────────────────
+# Preserva l'ordine già presente in foto.txt (impostato dall'editor con drag&drop),
+# rimuove i file non più esistenti e aggiunge in coda le foto nuove.
 while IFS= read -r -d '' dir; do
-  foto=()
+  # foto presenti su disco (escluso cover.jpg)
+  presenti=()
   while IFS= read -r -d '' f; do
     nome="$(basename "$f")"
     [[ "$nome" == "cover.jpg" ]] && continue
-    foto+=("$nome")
+    presenti+=("$nome")
   done < <(find "$dir" -maxdepth 1 -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) -print0 | sort -z)
 
-  printf "%s\n" "${foto[@]}" > "$dir/foto.txt"
-  echo "✓ foto.txt aggiornato: $(basename "$dir")/ — ${#foto[@]} foto"
+  ordinate=()
+  # 1) mantieni l'ordine esistente, solo per file ancora presenti
+  if [[ -f "$dir/foto.txt" ]]; then
+    while IFS= read -r riga; do
+      riga="$(echo "$riga" | tr -d '\r' | xargs)"
+      [[ -z "$riga" ]] && continue
+      for p in "${presenti[@]}"; do
+        if [[ "$p" == "$riga" ]]; then ordinate+=("$riga"); break; fi
+      done
+    done < "$dir/foto.txt"
+  fi
+  # 2) aggiungi in coda le foto nuove non ancora elencate
+  for p in "${presenti[@]}"; do
+    found=0
+    for o in "${ordinate[@]}"; do [[ "$o" == "$p" ]] && { found=1; break; }; done
+    [[ $found -eq 0 ]] && ordinate+=("$p")
+  done
+
+  : > "$dir/foto.txt"
+  [[ ${#ordinate[@]} -gt 0 ]] && printf "%s\n" "${ordinate[@]}" > "$dir/foto.txt"
+  echo "✓ foto.txt aggiornato: $(basename "$dir")/ — ${#ordinate[@]} foto"
 done < <(find "$ARTICOLI_DIR" -mindepth 1 -maxdepth 1 -type d -print0 | sort -z)
 
 # ── Git ───────────────────────────────────────────────────────────────────────

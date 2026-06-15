@@ -1,5 +1,5 @@
 titolo: Libreria a vetri
 categoria: Arredo
 descrizione: Libreria d'arredo ufficio con ante in vetro temperato e ante in legno chiaro. misure 90x198x40cm. l'articolo è disponibile per il ritiro (montato) al piano strada zona san pietro via delle fornaci
-prezzo: 50
+prezzo: 50€
 stato: disponibile
